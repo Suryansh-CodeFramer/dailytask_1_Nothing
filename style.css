@@ -1,0 +1,252 @@
+@font-face {
+    font-family: ff;
+    src: url(./Ndot-55-DoenNkNm\ \(2\).ttf);
+}
+@font-face {
+    font-family: gg;
+    src: url(./korataki-rg-3cf0d889-B6eTgmP5.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: #000000;
+    color: aliceblue;
+    
+}
+.nav{
+    position: relative;
+    top: 50px;
+    left: 2%;    
+}
+
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    padding: 20px;
+    font-weight: 200;
+    
+}
+
+.nav .left{
+position: absolute;
+font-family: ff;
+font-weight: 700;
+padding-left: 35px;
+}
+.nav .left a{
+    font-size: 50px;
+}
+.nav .center{
+    position: absolute;
+    left: 35%;
+}
+.nav .center input{
+    font-size: 22px;
+    border: none;
+    background: transparent;
+}
+
+.nav .right{
+    position: absolute;
+    right: 2%;
+}
+
+.nav .right a{
+    font-size: 14px;
+    padding-left: 70px;
+    font-family: gg;
+
+}
+#i1{
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 2%;
+}
+#i2{
+    position: absolute;
+    top: 37px;
+    left: 33%;
+    height: 70px;
+    width: 350px;
+}
+#i3{
+    position: absolute;
+    top: 40px;
+    height: 50px;
+    right: 25%;
+    /* width: 250px; */
+}
+#i4{
+    position: absolute;
+    top: 40px;
+    height: 50px;
+    right: 14%;
+    
+}
+#i5{
+    position: absolute;
+    top: 40px;
+    height: 53px;
+    right: 0.4%;
+    
+}
+
+
+
+
+.phone1{
+    position: absolute;
+    width: 200px;
+    rotate: -32deg;
+    top: 27%;
+    left: 64%;
+}
+
+.phone2{
+    position: absolute;
+    width: 200px;
+    rotate: -32deg;
+    top: 30%;
+    left: 67vw;
+}
+
+.l1 {
+    position: absolute;
+    height: 150px;
+    width: 1px;
+    border: 2px solid white;
+    top: 14%;
+    left: 26%;
+    rotate: -57deg;
+}
+.l2{
+     position: absolute;
+    height: 230px;
+    width: 1px;
+    border: 2px solid white;
+    top: 14%;
+    left: 38.7%;
+    rotate: 90deg;
+}
+.bl1{
+     position: absolute;
+    height: 2px;
+    width: 70px;
+    border: 2px solid white;
+    bottom: 16%;
+    left: 46.8%;
+    rotate: -35deg;
+}
+.bl2{
+    position: absolute;
+    height: 2px;
+    width: 660px;
+    border: 2px solid white;
+    bottom: 13%;
+}
+.bl3{
+    position: absolute;
+    height: 2px;
+    width: 680px;
+    border: 2px solid white;
+    bottom: 19%;
+    right: 0%;
+}
+.l3{
+    position: absolute;
+    height: 2px;
+    width: 640px;
+    border: 2px solid white;
+    bottom: 60.6%;
+    right: 0%;
+}
+.l4{
+    position: absolute;
+    height: 2px;
+    width: 120px;
+    border: 2px solid white;
+    top: 34.8%;
+    left: 46.4%;
+    rotate: 30deg;
+
+}
+.l5{
+    position: absolute;
+    height: 2px;
+    width: 250px;
+    border: 2px solid white;
+    top: 39.5%;
+    left: 40%;
+    rotate: 30deg;
+}
+.l6{
+    position: absolute;
+    height: 2px;
+    width: 70px;
+    border: 2px solid white;
+    bottom: 51%;
+    right: 38.3%;
+}
+.l7{
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    border: 2px solid white;
+    bottom: 47.6%;
+    right: 34.8%;
+    rotate: 50deg;
+}
+.l8{
+    position: absolute;
+    height: 2px;
+    width: 200px;
+    border: 2px solid white;
+    bottom: 44%;
+    right: 21.3%;
+}
+.l9{
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    border: 2px solid white;
+    bottom: 47.6%;
+    right: 17.9%;
+    rotate: -50deg;
+}
+.l10{
+    position: absolute;
+    height: 2px;
+    width: 260px;
+    border: 2px solid white;
+    bottom: 51%;
+    right: 0%;
+}
+.data{
+    position: absolute;
+    top: 55%;
+    color: rgba(128, 128, 128, 0.754);
+    font-family: gg;
+    font-size: 20px;
+    text-align: center;
+    padding: 30px;
+    left: 7%;
+}
+.data2{
+    font-family: ff;
+    position: absolute;
+    bottom: 15%;
+    left: 18%;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgba(128, 128, 128, 0.814);
+
+}
